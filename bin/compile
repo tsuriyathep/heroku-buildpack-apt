@@ -118,8 +118,9 @@ export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 export PKG_CONFIG_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/i386-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/pkgconfig:$PKG_CONFIG_PATH"
 echo `which python`
+echo `pwd`
 echo $BUILD_DIR
-ln -snf $HOME/usr/bin/python2.7 $HOME/usr/bin/python
+sudo ln -snf /usr/bin/python2.7 $HOME/usr/bin/python
 ln -sf /usr/lib/x8664-linux-gnu/libtiff.so.5 /usr/lib/x8664-linux-gnu/libtiff.so.3
 ln -sf /usr/lib/x8664-linux-gnu/libssl.so.1.0.0 /usr/lib/x8664-linux-gnu/libssl.so.6
 ln -sf /usr/lib/x8664-linux-gnu/libcrypto.so.1.0.0 /usr/lib/x8664-linux-gnu/libcrypto.so.6
