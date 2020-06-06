@@ -117,7 +117,7 @@ export INCLUDE_PATH="$BUILD_DIR/.apt/usr/include:$BUILD_DIR/.apt/usr/include/x86
 export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 export PKG_CONFIG_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/i386-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/pkgconfig:$PKG_CONFIG_PATH"
-echo $HOME
+echo `which python`
 echo $BUILD_DIR
 ln -snf $HOME/usr/bin/python2.7 $HOME/usr/bin/python
 ln -sf /usr/lib/x8664-linux-gnu/libtiff.so.5 /usr/lib/x8664-linux-gnu/libtiff.so.3
